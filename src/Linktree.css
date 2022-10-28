@@ -84,7 +84,7 @@ section {
 }
 
 footer {
-  margin-top: 4%;
+  margin-top: 7%;
   display: flex;
   justify-content: space-between;
   gap: 64px;
@@ -127,7 +127,6 @@ footer p{
     margin: 64px 40px;
   }
   footer {
-    margin-top: 4%;
     display: flex;
     justify-content: space-between;
     gap: 10px;
