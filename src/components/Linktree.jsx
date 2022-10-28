@@ -2,6 +2,10 @@ import React from "react";
 import ProfileImg from "../images/profileimage.png";
 import ShareDefault from "../images/ShareDefault.svg";
 import StateDefault from "../images/StateDefault.svg";
+import slack from "../images/slack.png";
+import Github from "../images/Social icon.png";
+import Zuriinternship from "../images/Zuri.Internship_Logo.png";
+import ingressiveforgood from "../images/I4G.png";
 import "../Linktree.css";
 
 const Linktree = () => {
@@ -55,6 +59,17 @@ const Linktree = () => {
 
           {/* lINKS STARTS */}
         </div>
+
+        <div id="social__icons">
+          <img src={slack} alt="slack logo" />
+          <img src={Github} alt="Github logo" />
+        </div>
+
+        <footer>
+        <img src={Zuriinternship} alt="Zuriinternship logo" />
+        <p>HNG Internship 9 Frontend Task</p>
+        <img src={ingressiveforgood} alt="ingressiveforgood" />
+        </footer>
       </section>
     </div>
   );
